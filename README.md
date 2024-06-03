@@ -16,6 +16,7 @@ What i will study can be seen below and i will try to also write brief explanati
   - AMD's ROCm (AMD's CUDA Alternative)
   - OpenGL
     - https://graphics.stanford.edu/courses/cs448a-01-fall/design_opengl.pdf
+    - https://learnopengl.com/Getting-started/OpenGL
 
 
 ## GPU Project 
