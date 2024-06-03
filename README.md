@@ -27,4 +27,4 @@ The features i will aim for are:
 - Custom Thing Displayed(Not something static)
 - Cycle through multiple things to be displayed (with an animation if it is doable, a continuous movement)
 - Allow customisation from the user(choose colors, construct "animations"/sequences of stuff to be displayed)
-- Allow realtime control of it(display text X for Y time)
+- Implement RGB Keyboard stuff (changing smoothly colors, cycling colors in a fun way to form a wave for example etc. etc.)
