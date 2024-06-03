@@ -23,7 +23,7 @@ What i will study can be seen below and i will try to also write brief explanati
 All of this knowledge amassed above is unrealistic to fit in a single project.
 
 For starters i want to implement a simple LED sign where the user can input some kind of text and it will be displayed in that way.
-I want to make it cross-platform to sharpen my skills but one platform only is ok.
+I want to make it cross-platform to sharpen my skills but one platform only is ok(preferrably Web to be able to publish it).
 The features i will aim for are:
 - Custom Thing Displayed(Not something static)
 - Cycle through multiple things to be displayed (with an animation if it is doable, a continuous movement)
