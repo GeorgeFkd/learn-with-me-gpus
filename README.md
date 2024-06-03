@@ -14,7 +14,7 @@ What i will study can be seen below and i will try to also write brief explanati
 - [ ] SIMT(Single Instruction Multiple Threads)
 - [ ] GPU Programming Tools
   - AMD's ROCm (AMD's CUDA Alternative)
-  - OpenGL
+  - OpenGL(+GLSL)
     - https://graphics.stanford.edu/courses/cs448a-01-fall/design_opengl.pdf
     - https://learnopengl.com/Getting-started/OpenGL
 
