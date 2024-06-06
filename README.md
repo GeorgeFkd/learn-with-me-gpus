@@ -11,6 +11,7 @@ What i will study can be seen below and i will try to also write brief explanati
 - [ ] Shaders
 - [ ] Anti-Aliasing
 - [ ] Ray Tracing
+- [ ] Understand common graphics teriminology(DPI,HDPI etc. etc.)
 - [ ] SIMT(Single Instruction Multiple Threads)
 - [ ] GPU Programming Tools
   - AMD's ROCm (AMD's CUDA Alternative)
