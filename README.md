@@ -5,17 +5,17 @@ What i will study can be seen below and i will try to also write brief explanati
 Found this course material: [Stanford Graphics Course](http://www.graphics.stanford.edu/courses/cs448a-01-fall/)
 
 ## Table of Contents
-- [ ] GPU architecture
+- [ ] GPU architecture (i don't feel like i have read enough on the topic yet)
   - https://medium.com/codex/understanding-the-architecture-of-a-gpu-d5d2d2e8978b --> Not a very good article, too vague and general
   - https://www.amd.com/system/files/documents/rdna-whitepaper.pdf --> tough read, haven't read it yet 
-- [ ] Graphics Pipeline
+- [X] Graphics Pipeline (i could read a bit more in depth for the separate steps)
   -  https://en.wikipedia.org/wiki/Graphics_pipeline (read, without diving deep into the geometry stuff)
   -  https://graphics.stanford.edu/courses/cs448a-01-fall/lectures/lecture2/gpipeline.2up.pdf (read, really general but it gives lots of terms to look up,also it is a bit old)
   -  https://www.cs.cornell.edu/courses/cs4620/2020fa/slides/11pipeline.pdf (read, good information, dives a bit deeper and does not just have pictures and bullet-points, gives an overview of some algorithms that I will not read as i will probably learn those in my master's).
-- [ ] Shaders
-- [ ] Anti-Aliasing
-- [ ] Ray Tracing
-- [ ] Vulkan
+- [X] Shaders (found this site -> https://thebookofshaders.com/01/ , that seems to have many posts for shaders, seems to be a quality resource and also has code examples, i will read it when i start coding)
+- [X] Anti-Aliasing (from wikipedia: aliasing is a phenomenon from signals processing that seems to apply to graphics too, tldr: pixels rectangular,IRL objects curvy, so problem occurs and we gotta write algorithms to solve it, e.g. supersampling)
+- [X] Ray Tracing (wikipedia has a good article on it with lots of stuff, tldr: calculates how light will bounce given the positions/angles(probably in the form of vectors) of the light, the sphere, and the camera
+- [X] Vulkan (seems to be a bit newer, and openGL a bit older,[reddit post](https://www.reddit.com/r/vulkan/comments/77j2sz/when_to_use_vulkan_vs_opengl/), [stack exchange post](https://www.reddit.com/r/vulkan/comments/77j2sz/when_to_use_vulkan_vs_opengl/), tldr: vulkan is really low-level giving all the control to the developer and openGL is more high level)
 - [ ] Understand common graphics teriminology(DPI,HDPI etc. etc.)
 - [ ] SIMT(Single Instruction Multiple Threads)
 - [ ] GPU Programming Tools
@@ -23,6 +23,7 @@ Found this course material: [Stanford Graphics Course](http://www.graphics.stanf
   - OpenGL(+GLSL)
     - https://graphics.stanford.edu/courses/cs448a-01-fall/design_opengl.pdf
     - https://learnopengl.com/Getting-started/OpenGL
+    - https://openglbook.com/chapter-0-preface-what-is-opengl.html
 
 
 ## GPU Project 
@@ -36,7 +37,9 @@ The features i will aim for are:
 - Allow customisation from the user(choose colors, construct "animations"/sequences of stuff to be displayed)
 - Implement RGB Keyboard stuff (changing smoothly colors, cycling colors in a fun way to form a wave for example etc. etc.)
 
-
+## GPU Tools
+- GLSL Viewer in https://github.com/patriciogonzalezvivo/glslViewer
+- 
 ## GPU Architecture notes
 
 A CPU is smarter than a GPU,which means it can do smart things for optimisation like **out-of-order-execution**, **branch-prediction**, **speculative execution**.
