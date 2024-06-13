@@ -4,8 +4,9 @@ What i will study can be seen below and i will try to also write brief explanati
 ## Table of Contents
 - [ ] GPU architecture
   - https://medium.com/codex/understanding-the-architecture-of-a-gpu-d5d2d2e8978b --> Not a very good article, too vague and general
+  - https://www.amd.com/system/files/documents/rdna-whitepaper.pdf --> tough read, haven't read it yet 
 - [ ] Graphics Pipeline
-  -  https://en.wikipedia.org/wiki/Graphics_pipeline
+  -  https://en.wikipedia.org/wiki/Graphics_pipeline (read, without diving deep into the geometry stuff)
   -  https://graphics.stanford.edu/courses/cs448a-01-fall/lectures/lecture2/gpipeline.2up.pdf
   -  https://www.cs.cornell.edu/courses/cs4620/2020fa/slides/11pipeline.pdf
 - [ ] Shaders
@@ -41,7 +42,18 @@ From the medium article above:
 > It is worth adding that the GPU programming model is SIMD (Single Instruction Multiple Data) meaning that all the cores execute exactly the same operation, but over different data. Evidently, the strenght of a GPU is not much in the processing capabilities of the cores, but in their massive parallelism.
 
 
-Random Terms:
+## GPU Graphics Pipelines
+Graphics Pipeline is the process a 3D scene undergoes to be converted to a 2D scene and painted to the screen.
+> a universally applicable graphics pipeline does not exist
+> 
+Direct3D, OpenGL and Vulkan were developed to standardize common procedures and oversee the graphics pipeline of a given hardware accelerator.
+The term "pipeline" is used in a similar sense for the pipeline in processors: the individual steps of the pipeline run in parallel as long as any given step has what it needs.
+There is also a Geometry Pipeline --> Model & Camera > Lighting > Projection > Clipping > Window-Viewport transformation (device coordinates).
+Application > Geometry > Rasterization > Screen
+In Rasterization, discrete fragments are created from continuous primitives
+
+Terms:
 - [Embarassingly Parallel](https://en.wikipedia.org/wiki/Embarrassingly_parallel)
 - [Reduction Operator](https://en.wikipedia.org/wiki/Reduction_operator)
 - [Streaming Multiprocessors](https://medium.com/@yunjiangster/understanding-streaming-multiprocessors-sm-blocks-threads-and-warps-in-cuda-programming-7e763c7d2563)
+- [World Coordinate System](wikipedia)
