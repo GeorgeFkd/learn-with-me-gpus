@@ -1,13 +1,16 @@
 # learn-with-me-gpus
 This is a repository where i document my journey into learning about GPUs
 What i will study can be seen below and i will try to also write brief explanations about those to enhance the learning experience of others from this repository.
+
+Found this course material: [Stanford Graphics Course](http://www.graphics.stanford.edu/courses/cs448a-01-fall/)
+
 ## Table of Contents
 - [ ] GPU architecture
   - https://medium.com/codex/understanding-the-architecture-of-a-gpu-d5d2d2e8978b --> Not a very good article, too vague and general
   - https://www.amd.com/system/files/documents/rdna-whitepaper.pdf --> tough read, haven't read it yet 
 - [ ] Graphics Pipeline
   -  https://en.wikipedia.org/wiki/Graphics_pipeline (read, without diving deep into the geometry stuff)
-  -  https://graphics.stanford.edu/courses/cs448a-01-fall/lectures/lecture2/gpipeline.2up.pdf
+  -  https://graphics.stanford.edu/courses/cs448a-01-fall/lectures/lecture2/gpipeline.2up.pdf (read, really general but it gives lots of terms to look up)
   -  https://www.cs.cornell.edu/courses/cs4620/2020fa/slides/11pipeline.pdf
 - [ ] Shaders
 - [ ] Anti-Aliasing
@@ -52,8 +55,14 @@ There is also a Geometry Pipeline --> Model & Camera > Lighting > Projection > C
 Application > Geometry > Rasterization > Screen
 In Rasterization, discrete fragments are created from continuous primitives
 
-Terms:
+Terms to study:
 - [Embarassingly Parallel](https://en.wikipedia.org/wiki/Embarrassingly_parallel)
 - [Reduction Operator](https://en.wikipedia.org/wiki/Reduction_operator)
+- Texture
+- Fragment
+- Antialiasing
+- Shading
+- Gamma Correction
+- OpenGL Architecture
 - [Streaming Multiprocessors](https://medium.com/@yunjiangster/understanding-streaming-multiprocessors-sm-blocks-threads-and-warps-in-cuda-programming-7e763c7d2563)
 - [World Coordinate System](wikipedia)
