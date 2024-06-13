@@ -3,7 +3,7 @@ This is a repository where i document my journey into learning about GPUs
 What i will study can be seen below and i will try to also write brief explanations about those to enhance the learning experience of others from this repository.
 ## Table of Contents
 - [ ] GPU architecture
-  - https://medium.com/codex/understanding-the-architecture-of-a-gpu-d5d2d2e8978b
+  - https://medium.com/codex/understanding-the-architecture-of-a-gpu-d5d2d2e8978b --> Not a very good article, too vague and general
 - [ ] Graphics Pipeline
   -  https://en.wikipedia.org/wiki/Graphics_pipeline
   -  https://graphics.stanford.edu/courses/cs448a-01-fall/lectures/lecture2/gpipeline.2up.pdf
@@ -30,3 +30,18 @@ The features i will aim for are:
 - Cycle through multiple things to be displayed (with an animation if it is doable, a continuous movement)
 - Allow customisation from the user(choose colors, construct "animations"/sequences of stuff to be displayed)
 - Implement RGB Keyboard stuff (changing smoothly colors, cycling colors in a fun way to form a wave for example etc. etc.)
+
+
+## GPU Architecture notes
+
+A CPU is smarter than a GPU,which means it can do smart things for optimisation like **out-of-order-execution**, **branch-prediction**, **speculative execution**.
+But as they evolve, GPUs can do smarter things.
+
+From the medium article above:
+> It is worth adding that the GPU programming model is SIMD (Single Instruction Multiple Data) meaning that all the cores execute exactly the same operation, but over different data. Evidently, the strenght of a GPU is not much in the processing capabilities of the cores, but in their massive parallelism.
+
+
+Random Terms:
+- [Embarassingly Parallel](https://en.wikipedia.org/wiki/Embarrassingly_parallel)
+- [Reduction Operator](https://en.wikipedia.org/wiki/Reduction_operator)
+- [Streaming Multiprocessors](https://medium.com/@yunjiangster/understanding-streaming-multiprocessors-sm-blocks-threads-and-warps-in-cuda-programming-7e763c7d2563)
