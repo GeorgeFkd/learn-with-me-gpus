@@ -10,8 +10,8 @@ Found this course material: [Stanford Graphics Course](http://www.graphics.stanf
   - https://www.amd.com/system/files/documents/rdna-whitepaper.pdf --> tough read, haven't read it yet 
 - [ ] Graphics Pipeline
   -  https://en.wikipedia.org/wiki/Graphics_pipeline (read, without diving deep into the geometry stuff)
-  -  https://graphics.stanford.edu/courses/cs448a-01-fall/lectures/lecture2/gpipeline.2up.pdf (read, really general but it gives lots of terms to look up)
-  -  https://www.cs.cornell.edu/courses/cs4620/2020fa/slides/11pipeline.pdf
+  -  https://graphics.stanford.edu/courses/cs448a-01-fall/lectures/lecture2/gpipeline.2up.pdf (read, really general but it gives lots of terms to look up,also it is a bit old)
+  -  https://www.cs.cornell.edu/courses/cs4620/2020fa/slides/11pipeline.pdf (read, good information, dives a bit deeper and does not just have pictures and bullet-points, gives an overview of some algorithms that I will not read as i will probably learn those in my master's).
 - [ ] Shaders
 - [ ] Anti-Aliasing
 - [ ] Ray Tracing
@@ -56,7 +56,9 @@ There is also a Geometry Pipeline --> Model & Camera > Lighting > Projection > C
 Application > Geometry > Rasterization > Screen
 In Rasterization, discrete fragments are created from continuous primitives
 
-Terms to study:
+In the pipeline for shading we can control the vertex shader and the fragment shader, the rest are implemented from the providers.
+
+Terms to study or just know:
 - [Embarassingly Parallel](https://en.wikipedia.org/wiki/Embarrassingly_parallel)
 - [Reduction Operator](https://en.wikipedia.org/wiki/Reduction_operator)
 - Texture
@@ -67,3 +69,8 @@ Terms to study:
 - OpenGL Architecture
 - [Streaming Multiprocessors](https://medium.com/@yunjiangster/understanding-streaming-multiprocessors-sm-blocks-threads-and-warps-in-cuda-programming-7e763c7d2563)
 - [World Coordinate System](wikipedia)
+- Hidden surface elimination
+- Back face culling
+- Painter's algorithm
+- Z buffer/Z sort
+- Gouraud and Phong Shading
