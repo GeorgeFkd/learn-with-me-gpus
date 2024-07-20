@@ -77,3 +77,15 @@ Terms to study or just know:
 - Painter's algorithm
 - Z buffer/Z sort
 - Gouraud and Phong Shading
+
+## Qt and OpenGL
+Previous knowledge of OpenGL is required in order to use it in Qt. The basic concepts and techniques should be enough though.  
+
+[Qt Docs](https://doc.qt.io/qt-6/qtopengl-index.html)
+The `QOpenGLWidget` Class is used to get the functionality for required to do OpenGL stuff in a Qt Widget by inheriting from that class. The 3 main methods are paintGL,resizeGL,initializeGL that each has its respective use case. 
+There is also a `QOpenGLFunctions` instance(doing `QOpenGLContext::currentContext()->functions();` where the methods for opengl can be found, instead of calling them directly.
+
+There is also a `QSurfaceFormat` Qt Class that can be helpful in this scenario.
+Qt also provides wrapper classes for common openGL things suchs as shaders, textures, buffers and VertexArrayObjects.
+
+
